@@ -11,10 +11,12 @@
     "vega": "^3.0.8"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "lazynerd-devtools": "^1.0.1"
   },
   "scripts": {
     "dev": "./node_modules/lazynerd-devtools/dev --config webpack.config.js",
-    "build": "./node_modules/lazynerd-devtools/build --config webpack.config.js"
+    "build": "./node_modules/lazynerd-devtools/build --config webpack.config.js",
+    "gh-pages": "npm run build && gh-pages -d dist"
   }
 }
