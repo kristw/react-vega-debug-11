@@ -1,0 +1,20 @@
+{
+  "name": "react-vega-debug-11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-vega": "^3.1.1",
+    "vega": "^3.0.8"
+  },
+  "devDependencies": {
+    "lazynerd-devtools": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "./node_modules/lazynerd-devtools/dev --config webpack.config.js",
+    "build": "./node_modules/lazynerd-devtools/build --config webpack.config.js"
+  }
+}
